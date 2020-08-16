@@ -1,10 +1,10 @@
-Googletrans
+Dragotrans
 ===========
 
 |GitHub license| |travis status| |Documentation Status| |PyPI version|
 |Coverage Status| |Code Climate|
 
-Googletrans is a **free** and **unlimited** python library that
+Dragotrans is a **free** and **unlimited** python library that
 implemented Google Translate API. This uses the `Google Translate Ajax
 API <https://translate.google.com>`__ to make calls to such methods as
 detect and translate.
@@ -63,7 +63,7 @@ python path.
 
 .. code:: bash
 
-    $ pip install googletrans
+    $ pip install dragotrans
 
 Basic Usage
 -----------
@@ -229,15 +229,4 @@ follows:
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-.. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg
-   :target: http://opensource.org/licenses/MIT
-.. |travis status| image:: https://travis-ci.org/ssut/py-googletrans.svg?branch=master
-   :target: https://travis-ci.org/ssut/py-googletrans
-.. |Documentation Status| image:: https://readthedocs.org/projects/py-googletrans/badge/?version=latest
-   :target: https://readthedocs.org/projects/py-googletrans/?badge=latest
-.. |PyPI version| image:: https://badge.fury.io/py/googletrans.svg
-   :target: http://badge.fury.io/py/googletrans
-.. |Coverage Status| image:: https://coveralls.io/repos/github/ssut/py-googletrans/badge.svg
-   :target: https://coveralls.io/github/ssut/py-googletrans
-.. |Code Climate| image:: https://codeclimate.com/github/ssut/py-googletrans/badges/gpa.svg
-   :target: https://codeclimate.com/github/ssut/py-googletrans
+
