@@ -43,7 +43,8 @@ def install():
         author='Emerger',
         author_email='sumitkhamar22@gmail.com',
         url='https://github.com/sumitkhamar22/dragotrans',
-        download_url='https://github.com/sumitkhamar22/drago/archive/0.1.tar.gz',
+        download_url='https://github.com/sumitkhamar22/dragotrans/archive/0.0.1.tar.gz',
+
         classifiers=['Development Status :: 5 - Production/Stable',
                      'Intended Audience :: Education',
                      'Intended Audience :: End Users/Desktop',
