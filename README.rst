@@ -1,8 +1,7 @@
 Dragotrans
 ===========
 
-|GitHub license| |travis status| |Documentation Status| |PyPI version|
-|Coverage Status| |Code Climate|
+
 
 Dragotrans is a **free** and **unlimited** python library that
 implemented Google Translate API. This uses the `Google Translate Ajax
@@ -11,8 +10,7 @@ detect and translate.
 
 Compatible with Python 3.6+.
 
-For details refer to the `API
-Documentation <https://py-googletrans.readthedocs.io/en/latest>`__.
+.
 
 Features
 --------
@@ -45,20 +43,14 @@ approaches such like goslate won't work since Google has updated its
 translation service recently with a ticket mechanism to prevent a lot of
 crawler programs.
 
-I eventually figure out a way to generate a ticket by reverse
-engineering on the `obfuscated and minified code used by Google to
-generate such
-token <https://translate.google.com/translate/releases/twsfe_w_20170306_RC00/r/js/desktop_module_main.js>`__,
-and implemented on the top of Python. However, this could be blocked at
-any time.
 
 --------------
 
 Installation
 ------------
 
-To install, either use things like pip with the package "googletrans"
-or download the package and put the "googletrans" directory into your
+To install, either use things like pip with the package "dragotrans"
+or download the package and put the "dragotrans" directory into your
 python path.
 
 .. code:: bash
