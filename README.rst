@@ -112,7 +112,7 @@ a given sentence.
 
 .. code:: python
 
-    >>> from googletrans import Translator
+    >>> from dragotrans import Translator
     >>> translator = Translator()
     >>> translator.detect('이 문장은 한글로 쓰여졌습니다.')
     # <Detected lang=ko confidence=0.27041003>
@@ -158,8 +158,7 @@ GoogleTrans as a command line application
 Note on library usage
 ---------------------
 
-DISCLAIMER: this is an unofficial library using the web API of translate.google.com
-and also is not associated with Google.
+
 
 -  **The maximum character limit on a single text is 15k.**
 
@@ -167,9 +166,7 @@ and also is not associated with Google.
    does not guarantee that the library would work properly at all times
    (so please use this library if you don't care about stability).
 
--  **Important:** If you want to use a stable API, I highly recommend you to use
-   `Google's official translate
-   API <https://cloud.google.com/translate/docs>`__.
+
 
 -  If you get HTTP 5xx error or errors like #6, it's probably because
    Google has banned your client IP address.
