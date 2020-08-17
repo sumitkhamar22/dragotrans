@@ -36,11 +36,8 @@ def get_readme():
 def install():
     setup(
         name='dragotrans',
-        version='0.0.3',
-        description=("Dragotrans is a free and unlimited python library that will recognize and translate language from the text.Compatible with Python 3.6+."+"\n\n"+"Features"+"\n"+"==>Fast and reliable "+"\n"+"==>Auto language detection"+"\n"
-"==>Bulk translations"
-+"\n"+"==>Customizable service URL"+"\n"
-+"==>HTTP/2 support"),
+        version='3.0.1',
+         description="Dragotrans is a free and unlimited python library that will recognize and translate language from the text.Compatible with Python 3.6+.",
         long_description=get_readme(),
         license='MIT',
         author='Emerger',
