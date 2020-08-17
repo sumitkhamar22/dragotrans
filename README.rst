@@ -13,7 +13,7 @@ Compatible with Python 3.6+.
 Features
 --------
 
--  Fast and reliable - it uses the same servers that
+-  Fast and reliable 
    translate.google.com uses
 -  Auto language detection
 -  Bulk translations
