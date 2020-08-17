@@ -4,9 +4,7 @@ Dragotrans
 
 
 Dragotrans is a **free** and **unlimited** python library that
-implemented Google Translate API. This uses the `Google Translate Ajax
-API <https://translate.google.com>`__ to make calls to such methods as
-detect and translate.
+will recognize and translate language from the text. 
 
 Compatible with Python 3.6+.
 
@@ -123,7 +121,7 @@ a given sentence.
     >>> translator.detect('Tiu frazo estas skribita en Esperanto.')
     # <Detected lang=eo confidence=0.10538048>
 
-GoogleTrans as a command line application
+DragoTrans as a command line application
 -----------------------------------------
 
 .. code:: bash
