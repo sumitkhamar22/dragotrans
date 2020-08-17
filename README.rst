@@ -33,13 +33,7 @@ HTTP/2 support
 
 This library uses httpx for HTTP requests so HTTP/2 is supported by default.
 
-How does this library work
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may wonder why this library works properly, whereas other
-approaches such like goslate won't work since Google has updated its
-translation service recently with a ticket mechanism to prevent a lot of
-crawler programs.
 
 
 --------------
@@ -58,12 +52,12 @@ python path.
 Basic Usage
 -----------
 
-If source language is not given, google translate attempts to detect the
+If source language is not given, this library translate attempts to detect the
 source language.
 
 .. code:: python
 
-    >>> from googletrans import Translator
+    >>> from dragotrans import Translator
     >>> translator = Translator()
     >>> translator.translate('안녕하세요.')
     # <Translated src=ko dest=en text=Good evening. pronunciation=Good evening.>
@@ -72,19 +66,6 @@ source language.
     >>> translator.translate('veritas lux mea', src='la')
     # <Translated src=la dest=en text=The truth is my light pronunciation=The truth is my light>
 
-Customize service URL
-~~~~~~~~~~~~~~~~~~~~~
-
-You can use another google translate domain for translation. If multiple
-URLs are provided, it then randomly chooses a domain.
-
-.. code:: python
-
-    >>> from googletrans import Translator
-    >>> translator = Translator(service_urls=[
-          'translate.google.com',
-          'translate.google.co.kr',
-        ])
 
 Advanced Usage (Bulk)
 ~~~~~~~~~~~~~~~~~~~~~
@@ -158,26 +139,6 @@ Note on library usage
 
 
 
--  **The maximum character limit on a single text is 15k.**
-
--  Due to limitations of the web version of google translate, this API
-   does not guarantee that the library would work properly at all times
-   (so please use this library if you don't care about stability).
-
-
-
--  If you get HTTP 5xx error or errors like #6, it's probably because
-   Google has banned your client IP address.
-
---------------
-
-Versioning
-----------
-
-This library follows `Semantic Versioning <http://semver.org/>`__ from
-v2.0.0. Any release versioned 0.x.y is subject to backwards incompatible
-changes at any time.
-
 Contributing
 -------------------------
 
@@ -189,7 +150,7 @@ Contributions are more than welcomed. See
 License
 -------
 
-Googletrans is licensed under the MIT License. The terms are as
+Dragotrans is licensed under the MIT License. The terms are as
 follows:
 
 ::
